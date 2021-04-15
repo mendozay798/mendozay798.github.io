@@ -14,11 +14,11 @@
             box-sizing: border-box;
         }
         body {
-            color:black;
-            margin: 0;
+            color:#DA1F90;
+            margin: auto;
             font-family: serif;
             text-align: center;
-            background: url("imgs/pinkbox.jpg");
+            background: url("imgs/neon.jpg") no-repeat center;
             background-size: cover;
 
         }
@@ -31,19 +31,18 @@
             text-decoration: none;
         }
 
+        h2{
+            color:black;
+        }
+
         .nav-header {
-            height: 80px;
-            background: #ffcce6;
+            height: 100px;
+            background: lightpink;
             display: flex;
         }
 
         .nav-div {
             margin: auto;
-        }
-
-        .logo-img {
-            width: 120px;
-            margin-left: 20px;
         }
 
         .search-icon {
@@ -63,6 +62,8 @@
             font-size: 24px;
             padding: 20px;
         }
+
+        
            
         .main-header-title {
             margin-top: 20px;
@@ -77,20 +78,24 @@
         }
 
         .main-header-intro {
+            text-align: left;
             line-height: 1.5em;
             width: 50%;
-            margin: auto;
-            color: black;
-            text-align: justify;
+            margin:auto;
+            color: #e60077;
             font-weight: bold;
             font-size: 20px;
+            padding-top:0px;
+            padding-bottom:0px;
         }
 
         .intro {
             width: 50%;
             margin: auto;
             color:black;
+            font-size:20px;
             font-weight: bold;
+            
 
         }
 
@@ -135,9 +140,9 @@
         a:hover {
             color: pink;
         }
-
-
-        @media only screen and (max-width: 600px) {
+            
+        
+       @media only screen and (max-width: 600px) {
             body {
                 background-color: pink;
             }
@@ -154,10 +159,10 @@
             .nav-bar {
                 display: flex;
                 flex-direction: column;
-                background-color: #ffcce6;
+                background-color: lightpink;
                 padding-left:20px;
                 margin-top:2px;
-                height:77%;
+                height:96%;
 
             }
 
@@ -166,19 +171,16 @@
             flex-direction: column;
 
             }
-            .main-header-intro{  
-                display:flex;
-                padding:10px;
-                
-            }
+           
             
         
-        }
+        
 
         @media only screen and (min-width: 601px) {
             body {
-                background-color: #c2c2c2;
-                margin-bottom:10px;
+                background-color: pink;
+            }
+
             }
             .box {
                 display:flex;
@@ -187,7 +189,7 @@
                  }
         
         }   
-
+          }
 
        
     </style>
@@ -212,9 +214,7 @@
 
     <div class="main-header">
         <h1 class="main-header-title">Styles Offered</h1>
-        <div class="main-header-intro">
-            
-        </div>
+
     </div>
 
     <h2>Any nail style can be done!</h2>
