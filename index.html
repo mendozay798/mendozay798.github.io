@@ -1,34 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
-   <head>
-    <head>
+
+  <head>
     <title>Pressed Kouture</title>
-    <link rel="stylesheet" href="my.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+
     <meta charset="utf-8">
+
+        
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <style>
-         * { box-sizing: 
-          }
+        * {
+            box-sizing: border-box;
+        }
+        body {
+            color: #878787;
+            margin: 0;
+            font-family: sans-serif;
+            text-align: center;
+        }
 
-         title {
-            font-weight: bold;
-         }
+        img {
+            max-width: 100%;
+        }
 
-         body {
-           background-color: lightpink;
-            
-         }
+        a {
+            text-decoration: none;
+        }
 
-         ol {
-            font-weight : bold; 
-            color: black;
-            font-size: 20px;
-         }
-
-           .nav-header {
-            height: 80px;
-            background: #ffcce6;
+        .nav-header {
+            height: 100px;
+            background: #f0f5f5;
             display: flex;
         }
 
@@ -39,7 +41,6 @@
         .logo-img {
             width: 120px;
             margin-left: 20px;
-            color:pink;
         }
 
         .search-icon {
@@ -58,30 +59,161 @@
             color: #878787;
             font-size: 24px;
             padding: 20px;
+        }
+
+        .main-header {
+            height: 300px;
+            background: url("imgs/pinkbox.jpg") no-repeat center;
+            background-size: cover;
+        }
+
+        .main-header-title {
+            margin-top: 0;
+            padding-top: 30px;
+            text-align: left;
+            font-size: 2.5em;
+            color: #f7f8f9;
+            text-transform: uppercase;
+            font-weight: normal;
+            padding-left: 75px;
+            text-shadow: 3px 2px grey;
+        }
+
+        .main-header-intro {
+            line-height: 1.5em;
+            width: 50%;
+            margin: auto;
+            padding: 40px;
+            color: white;
+            text-align: justify;
+        }
+
+        .intro {
+            width: 60%;
+            margin: auto;
+        }
+
+        .button {
+            display: block;
+            background: #9dcc51;
+            color: white;
+            padding: 15px;
+            font-size: 24px;
+            width: 160px;
+            margin: auto;
+            text-decoration: none;
+            margin-top: 20px;
+            box-shadow: 2px 2px 2px #888888;
+        }
+
+        .box {
+            display: flex;
+            width: 80%;
+            margin: auto;
+        }
+
+        .card {
+            width: 100%;
+            padding: 20px;
+            text-align: left;
+            border: 1px grey solid;
+            margin: 20px;
+            margin-top: 40px;
+            border-radius: 5px;
+            background: #f0f5f5;
+            box-shadow: 5px 5px 5px #888888;
+        }
+
+        .footer {
+            height: 40px;
+            background: #f0f5f5;
+            padding: 5px;
+        }
 
 
+        a:hover {
+            color: green;
+        }
+
+
+        @media only screen and (max-width: 600px) {
+            body {
+                background-color: lightblue;
+            }
+            
+            .nav-header {
+                display:flex;
+                flex-direction: column;
+                background: white;
+                align-items: center;
+                margin-bottom:160px;
+                padding:0px;
+            }
+
+            .nav-bar {
+                display: flex;
+                flex-direction: column;
+                background-color: #c2c2c2;
+
+            }
+
+            .box { 
+            display:flex; 
+            flex-direction: column;
+
+            }
+            .main-header-intro{  
+                display:flex;
+                padding:10px;
+                
+            }
+            
+        
+        }
+
+        @media only screen and (min-width: 601px) {
+            body {
+                background-color: white;
+            }
+            .box {
+                display:flex;
+                flex-direction:row;
+                justify-content:center;
+                 }
+        
+        }   
+          }
       </style>
-      <title>Pressed Kouture</title>
-      <meta charset="UTF-8">
-   </head>
    <body>
-         <div class="nav-header">
+       <div class="nav-header">
+        
         <div class="nav-div">
             <ul class="nav-bar">
-                <li class="nav-bar-list"><a class="nav-bar-link" href="index.html">Home</a></li>
-                <li class="nav-bar-list"><a class="nav-bar-link" href="Styles.html">Nail Styles</a></li>
-                <li class="nav-bar-list"><a class="nav-bar-link" href="contactus.html">Contact Us</a></li>
+                <li class="nav-bar-list"><a class="nav-bar-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-bar-list"><a class="nav-bar-link" href="Styles.html">Nail Styles</a>
+                </li>
+                <li class="nav-bar-list"><a class="nav-bar-link" href="contactus.html">Contact Us</a>
+                </li>
             </ul>
         </div>
         <div class="search-icon">
             <i class="fa fa-search fa-2x" aria-hidden="true"></i>
         </div>
     </div>
-         
-      <h2> Press-On Nails by Rachel Sanborn </h2>
-      <h3> A website created to share highly sought after press-ons </h3>
-      <h4> We specialize in </h4>
-      <ol>
+
+    <div class="main-header">
+        <h1 class="main-header-title">Pressed Kouture</h1>
+        <div class="main-header-intro">
+           We take pride in providing high quaility press-on nails for an affordable price. Every person interested in this area should be able to look and feel pretty without breaking the bank. 
+        </div>
+    </div>
+
+    <div class="box">
+        <div class="card">
+            <img src="imgs/butterflybox.jpg" alt="butterflybox">
+           <h4> We specialize in </h4>
+      <ul>
             <li> Sticker art </li>
 
             <li> Designer art </li>
@@ -91,20 +223,37 @@
             <li> Matte finishes </li>
 
             <li> Glossy finishes </li>
-      </ol>
+      </ul> 
+            </ul>
+        </div>
+        <!-- End of class .card -->
 
-      <p> 
-          If you have any special requests that require preparation, please email rachhsann@gmail.com 
-      </p> 
-      <h3> We can do anything from this;</h3>
+        <div class="card">
+          <h4> We can do anything from this;</h4>
 
          <img src=https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUUFg0FBNAk8XJujy_y4XgCmBSLixGLjopfA&usqp=CAU>
-
-      <h3> to this. </h3>
+        
+         <h4> to this. </h4>
 
          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNthOmjXNgqvz6ke9cO0XpgAFtNgklP-m-HQ&usqp=CAU">
 
-      <h3> For ideas, visit the link below</h3>
+       </div>
+
+        <div class="card">
+             <h3> For ideas, visit the link below</h3>
          <a href="https://www.pinterest.com/nailedbycristy/luxury-press-on-nails/">Visit Pintrest</a>
+        <img src="imgs/nails.jpg">
+        <img src=
+        </div>
+        <!-- End of class .card -->
+
+    </div>
+    <!-- End of class .box -->
+
+    <div class="footer">
+        <i class="fa fa-facebook-square fa-2x" aria-hidden="true"></i>
+        <i class="fa fa-twitter-square fa-2x" aria-hidden="true"></i>
+        <i class="fa fa-flickr fa-2x" aria-hidden="true"></i>
+    </div>
    </body>
 </html>
