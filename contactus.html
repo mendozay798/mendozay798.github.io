@@ -1,13 +1,244 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-    <title>Pressed Kouture</title>
-    <link rel="stylesheet" href="my.css">
+  <head>
+    <title>Contact Us</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
 
     <meta charset="utf-8">
 
         
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <style>
+      <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            color:black;
+            margin: 0;
+            font-family: serif;
+            text-align: center;
+        }
+
+        img {
+            max-width: 100%;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        .nav-header {
+            height: 100px;
+            background: lightpink;
+            display: flex;
+        }
+
+        .nav-div {
+            margin: auto;
+        }
+
+        .logo-img {
+            width: 120px;
+            margin-left: 20px;
+        }
+
+        .search-icon {
+            margin: 30px;
+        }
+
+        .nav-bar {
+            list-style-type: none;
+        }
+
+        .nav-bar-list {
+            display: inline-block;
+        }
+
+        .nav-bar-link {
+            color: #878787;
+            font-size: 24px;
+            padding: 20px;
+        }
+
+        .main-header {
+            height: 300px;
+            background: url("imgs/pinkbox.jpg") no-repeat center;
+            background-size: cover;
+        }
+
+        .main-header-title {
+            margin-top: 0;
+            padding-top: 30px;
+            text-align: left;
+            font-size: 2.5em;
+            color:#DA1F90;
+            text-transform: uppercase;
+            font-weight: bold;
+            padding-left: 75px;
+            text-shadow: 3px 2px grey;
+        }
+
+        .main-header-intro {
+            line-height: 1.5em;
+            width: 50%;
+            margin: auto;
+            padding: 100px;
+            color: black;
+            text-align: justify;
+            font-weight: bold;
+            font-size:15px;
+        }
+
+        .intro {
+            width: 60%;
+            margin: auto;
+        }
+
+        .box {
+            display: flex;
+            width: 80%;
+            margin: auto;
+        }
+
+        .card {
+            width: 100%;
+            padding: 20px;
+            text-align: left;
+            border: 2px pink solid;
+            margin: 20px;
+            margin-top: 40px;
+            border-radius: 5px;
+            background: #f0f5f5;
+            box-shadow: 5px 5px 5px pink;
+        }
+
+        .footer {
+            height: 40px;
+            background: #f0f5f5;
+            padding: 5px;
+        }
+
+
+        a:hover {
+            color: green;
+        }
+
+
+        @media only screen and (max-width: 600px) {
+            body {
+                background-color: pink;
+            }
+            
+            .nav-header {
+                display:flex;
+                flex-direction: column;
+                background: white;
+                align-items: center;
+                margin-bottom:160px;
+                padding:0px;
+            }
+
+            .nav-bar {
+                display: flex;
+                flex-direction: column;
+                background-color: lightpink;
+                padding-left:20px;
+                margin-top:2px;
+                height:96%;
+
+            }
+
+            .box { 
+            display:flex; 
+            flex-direction: column;
+
+            }
+            .main-header-intro{  
+                display:flex;
+                padding:10px;
+                
+            }
+            
+        
+        
+
+        @media only screen and (min-width: 601px) {
+            body {
+                background-color: pink;
+            }
+            .box {
+                display:flex;
+                flex-direction:row;
+                justify-content:center;
+                 }
+        
+        }   
+          }
+      </style>
+   <body>
+       <div class="nav-header">
+        
+        <div class="nav-div">
+            <ul class="nav-bar">
+                <li class="nav-bar-list"><a class="nav-bar-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-bar-list"><a class="nav-bar-link" href="Styles.html">Nail Styles</a>
+                </li>
+                <li class="nav-bar-list"><a class="nav-bar-link" href="contactus.html">Contact Us</a>
+                </li>
+            </ul>
+        </div>
+        <div class="search-icon">
+            <i class="fa fa-search fa-2x" aria-hidden="true"></i>
+        </div>
+    </div>
+
+    <div class="main-header">
+        <h1 class="main-header-title">Contatct Us</h1>
+        <div class="main-header-intro">
+           We are here to serve you and all your press-on nail needs. At Pressed Kouture we strive to provide an unparalleled experience to all of our clients.If you are not satisfied with your press-ons, Rachel will create a new set to your exact wishes to ensure you are happy. 
+        </div>
+    </div>
+
+    <div class="box">
+        <div class="card">
+           <h4> We also provide other services at an additional cost which include </h4>
+      <ul>
+            <li> Discounted price on multiple sets </li>
+
+            <li> Loose gems/stickers </li>
+
+            <li> Blank nail tips </li>
+
+            <li> Extra premium nail glue </li>
+
+            <li> Nail polish/ top coats </li>
+      </ul> 
+       <img src="imgs/frenchtip.jpg" alt="frenchtip">    
+        </div>
+
+        <div class="card">
+        <h4> Pressed Kouture is open 5 days a week, from 8:00 a.m. to 4 p.m.</h4>
+        <h4> We can be reached by phone, email, or social media.</h4>
+            <ul>
+                <li>Phone: 603-566-4853</li>
+
+                <li>Email: rachhsann@gmail.com</li>
+
+                <li>Instagram: @pressedkouture</li>
+
+                <li>Twitter: @pressedkouture
+
+       </div>
+
+    </div>
+
+    <div class="footer">
+        <i class="fa fa-facebook-square fa-2x" aria-hidden="true"></i>
+        <i class="fa fa-twitter-square fa-2x" aria-hidden="true"></i>
+        <i class="fa fa-flickr fa-2x" aria-hidden="true"></i>
+    </div>
+   </body>
+</html>
