@@ -15,11 +15,13 @@
             box-sizing: border-box;
         }
         body {
-            color:#e60077;
+            color:black;
             margin: 0;
             font-family: serif;
             text-align: center;
-             background: url("imgs/pinkbox.jpg");
+            background: url("imgs/pinkbox.jpg");
+            background-size: cover;
+
         }
 
         img {
@@ -62,8 +64,7 @@
             font-size: 24px;
             padding: 20px;
         }
-        
-
+           
         .main-header-title {
             margin-top: 0;
             padding-top: 30px;
@@ -89,8 +90,11 @@
         }
 
         .intro {
-            width: 60%;
+            width: 50%;
             margin: auto;
+            color:black;
+            font-weight: bold;
+
         }
 
         .button {
@@ -132,7 +136,7 @@
 
 
         a:hover {
-            color: green;
+            color: pink;
         }
 
 
@@ -153,7 +157,10 @@
             .nav-bar {
                 display: flex;
                 flex-direction: column;
-                background-color: #c2c2c2;
+                background-color: #ffcce6;
+                padding-left:20px;
+                margin-top:2px;
+                height:77%;
 
             }
 
@@ -173,7 +180,8 @@
 
         @media only screen and (min-width: 601px) {
             body {
-                background-color: white;
+                background-color: #c2c2c2;
+                margin-bottom:10px;
             }
             .box {
                 display:flex;
