@@ -139,16 +139,17 @@
             
             .nav-header {
                 display:flex;
-                flex-direction: column;
+                flex-direction:row;
                 background: white;
                 align-items: center;
-                margin-bottom:160px;
+                margin-bottom:150px;
                 padding:0px;
             }
 
             .nav-bar {
                 display: flex;
-                flex-direction: column;
+                flex-direction: row;
+                flex:wrap;
                 background-color: lightpink;
                 padding-left:20px;
                 margin-top:2px;
@@ -174,7 +175,7 @@
             }
             .box {
                 display:flex;
-                flex-direction:row;
+                flex-direction:column;
                 justify-content:center;
                  }
         
