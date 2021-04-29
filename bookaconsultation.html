@@ -2,203 +2,33 @@
 <html lang="en">
 
 <head>
-     <title>How it Works</title>
+     <title>Book a Consultation</title>
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="mycss5.css">
 
     <meta charset="utf-8">
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     
-    <style>
-        * {
-            box-sizing: border-box;
-        }
-        body {
-            color:#DA1F90;
-            margin: auto;
-            font-family: serif;
-            text-align: center;
-            background: url("imgs/pinkbox.jpg") no-repeat center;
-            background-size: cover;
-
-        }
-
-        img {
-            max-width: 100%;
-        }
-
-        a {
-            text-decoration: none;
-        }
-
-        h2{
-            color:black;
-        }
-
-        .nav-header {
-            height: 100px;
-            background: lightpink;
-            display: flex;
-        }
-
-        .nav-div {
-            margin: auto;
-        }
-
-        .search-icon {
-            margin: 30px;
-            color:grey;
-        }
-
-        .nav-bar {
-            list-style-type: none;
-        }
-
-        .nav-bar-list {
-            display: inline-block;
-        }
-
-        .nav-bar-link {
-            color: #878787;
-            font-size: 24px;
-            padding: 20px;
-        }
-
-        
-           
-        .main-header-title {
-            margin-top: 20px;
-            padding-top: 30px;
-            text-align: left;
-            font-size: 2.5em;
-            color:#DA1F90;
-            text-transform: uppercase;
-            font-weight: bold;
-            padding-left: 75px;
-            text-shadow: 3px 2px grey;
-        }
-
-        .main-header-intro {
-            text-align: left;
-            line-height: 1.5em;
-            width: 50%;
-            margin:auto;
-            color: #e60077;
-            font-weight: bold;
-            font-size: 20px;
-            padding-top:0px;
-            padding-bottom:0px;
-        }
-
-        .intro {
-            width: 50%;
-            margin: auto;
-            color:black;
-            font-size:20px;
-            font-weight: bold;
-            
-
-        }
-
-        .button {
-            display: block;
-            background: #e60077;
-            color: white;
-            padding: 15px;
-            font-size: 24px;
-            width: 160px;
-            margin: auto;
-            text-decoration: none;
-            margin-top: 20px;
-            box-shadow: 2px 2px 2px #888888;
-        }
-
-        .box {
-            display: flex;
-            width: 80%;
-            margin: auto;
-        }
-
-        .card {
-            width: 100%;
-            padding: 20px;
-            text-align: left;
-            border: 2px pink solid;
-            margin: 20px;
-            margin-top: 40px;
-            border-radius: 5px;
-            background: #f0f5f5;
-            box-shadow: 5px 5px 5px pink;
-        }
-
-        .footer {
-            height: 40px;
-            background: #f0f5f5;
-            padding: 5px;
-        }
-
-
-        a:hover {
-            color: pink;
-        }
-            
-        
-       @media only screen and (max-width: 600px) {
-            body {
-                background-color: pink;
-            }
-            
-            .nav-header {
-                display:flex;
-                flex-direction: column;
-                background: white;
-                align-items: center;
-                margin-bottom:160px;
-                padding:0px;
-            }
-
-            .nav-bar {
-                display: flex;
-                flex-direction: column;
-                background-color: lightpink;
-                padding-left:20px;
-                margin-top:2px;
-                height:96%;
-
-            }
-
-            .box { 
-            display:flex; 
-            flex-direction: column;
-
-            }
-           
-            
-        
-        
-
-        @media only screen and (min-width: 601px) {
-            body {
-                background-color: pink;
-            }
-
-            }
-            .box {
-                display:flex;
-                flex-direction:row;
-                justify-content:center;
-                 }
-        
-        }   
-          
-
-       
-    </style>
 </head>
 
 <body>
-    <div class="nav-header">
-        <div class="nav-div">
+    
+    <header>
+
+
+
+         <button class="toggle-btn" oneclick="myFunction();">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button >
+
+    
+        <nav>
             <ul class="nav-bar">
                 <li class="nav-bar-list"><a class="nav-bar-link" href="index.html">Home</a>
                 </li>
@@ -206,68 +36,50 @@
                 </li>
                 <li class="nav-bar-list"><a class="nav-bar-link" href="contactus.html">Contact Us</a>
                 </li>
-                <li class="nav-bar-list"><a class="nav-bar-link" href="HowitWorks.html">How it Works</a>
-                <li class="nav-bar-list"><a class="nav-bar-link" href="reviews.html">Reviews</a>
-                <li class="nav-bar-list"><a class="nav-bar-link" href="bookaconsultation.html">Book a Consultation</a>    
+                <li class="nav-bar-list"><a class="nav-bar-link" href="HowitWorks.html">How it Works</a> </li>
+                <li class="nav-bar-list"><a class="nav-bar-link" href="reviews.html">Reviews</a></li>
+                <li class="nav-bar-list"><a class="nav-bar-link" href="bookaconsultation.html">Book a Consultation</a></li>    
             </ul>
-        </div>
-        <div class="search-icon">
-            <i class="fa fa-search fa-2x" aria-hidden="true"></i>
-        </div>
-    </div>
+        </nav>
+       
+    </Header>
 
     <div class="main-header">
-        <h1 class="main-header-title">Styles Offered</h1>
+        <h1 class="main-header-title">We consider all requests</h1>
 
     </div>
 
-    <h2>Any nail style can be done!</h2>
-    <div class="intro">
-        <p> Whatever style you want, we can create it and tweak it to anything you desire. We will not stop until you obtain the look and shape of nail that you are looking for. Here at Pressed Kouture we always want a customer to leave feeling happy and beautiful. Look for designs down below that interest you and Rachel can make them a reality. 
-        </p>
-        <a href="http://www.google.com" class="button"> Find your new look </a>
-    </div>
+  <p>Requests:</p>
 
-    <div class="box">
-        <div class="card">
-            <img src="imgs/cow.jpg" alt="cow">
-            <h3>Coffin Nails</h3>
-            <p>
-                Coffin nails elongate the fingers and provide a bigger canvas for nail art. They can add a bit of edge to every outfit you try on. They can accessorize an outfit without the use of jewlery, giving you a more natural and simple look. 
-            </p>
-        </div>
+    <form action="/action_page.php" target="_blank">
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Name" required name="Name"></p>
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Email" required name="Email"></p>
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Subject" required name="Subject"></p>
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Message" required name="Message"></p>
+      <p>
+        <button class="w3-button w3-light-grey w3-padding-large" type="submit">
+          <i class="fa fa-paper-plane"></i> SEND MESSAGE
+        </button>
+      </p>
+    </form>
 
-
-        <div class="card">
-            <img src="imgs/brownswirl.jpg" alt="Brownswirl">
-            <h3>Square</h3>
-            <p>
-                Square press-on nails are highly sought after. They are the standard style for french manicures and other classic looks. When worn short, the straight edges keep the nails strong, which makes them desierable for people who work with their hands often. These nails can be worn:
-            </p>
-            <ol>
-                <li>Short</li>
-                <li>Long</li>
-                <li>With or Without Gems</li>
-                <li>Frech Tipped</li>
-            </ol>
-        </div>
-        
-
-        <div class="card">
-            <img src="imgs/beigebox.jpg" alt="beigebox">
-            <h3>Ballerina</h3>
-            <p>
-                Ballerina nails have their name because the shape resembles a ballerina's shoe. These resemble coffin nails but often have a thinner tip than their counter-part. The shape of these nails offer a larger area to get creative. 
-            </p>
-        </div>
-
-    </div>
+   
 
     <div class="footer">
         <i class="fa fa-facebook-square fa-2x" aria-hidden="true"></i>
         <i class="fa fa-twitter-square fa-2x" aria-hidden="true"></i>
         <i class="fa fa-flickr fa-2x" aria-hidden="true"></i>
     </div>
+
+
+<script type="text/javascript">
+
+
+    function myFunction(){
+        var navbar=document.getElementById('nav');
+        navbar.classicist.toggle('show');
+    }
+</script>
 </body>
 
 </html>

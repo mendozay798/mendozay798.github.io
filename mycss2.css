@@ -1,4 +1,4 @@
-            
+  
         * {
             box-sizing: border-box;
         }
@@ -49,7 +49,7 @@
 
         .main-header {
             height: 300px;
-            background: url("imgs/pinkbox.jpg") no-repeat center;
+            background: url("imgs/pinkbox.jpg") no-repeat center; 
             background-size: cover;
         }
 
@@ -96,7 +96,7 @@
             margin-top: 40px;
             border-radius: 5px;
             background: #f0f5f5;
-            box-shadow: 5px 5px 5px ;
+            box-shadow: 5px 5px 5px pink;
         }
 
         .footer {
@@ -107,7 +107,7 @@
 
 
         a:hover {
-            color: pink;
+            color: green;
         }
 
 
@@ -143,9 +143,10 @@
             .main-header-intro{  
                 display:flex;
                 padding:10px;
-              }
-
+                
             }
+            
+        
         
 
         @media only screen and (min-width: 601px) {
@@ -157,5 +158,7 @@
                 flex-direction:row;
                 justify-content:center;
                  }
-            }
+        
+        }   
+          }
       

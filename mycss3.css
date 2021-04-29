@@ -1,13 +1,15 @@
-            
+   
         * {
             box-sizing: border-box;
         }
-
         body {
-            color:black;
-            margin: 0;
+            color:#DA1F90;
+            margin: auto;
             font-family: serif;
             text-align: center;
+            background: url("imgs/pinkbox.jpg") no-repeat center;
+            background-size: cover;
+
         }
 
         img {
@@ -16,6 +18,10 @@
 
         a {
             text-decoration: none;
+        }
+
+        h2{
+            color:black;
         }
 
         .nav-header {
@@ -47,14 +53,10 @@
             padding: 20px;
         }
 
-        .main-header {
-            height: 300px;
-            background: url("imgs/pinkbox.jpg") no-repeat center;
-            background-size: cover;
-        }
-
+        
+           
         .main-header-title {
-            margin-top: 0;
+            margin-top: 20px;
             padding-top: 30px;
             text-align: left;
             font-size: 2.5em;
@@ -66,19 +68,38 @@
         }
 
         .main-header-intro {
+            text-align: left;
             line-height: 1.5em;
             width: 50%;
-            margin: auto;
-            padding: 100px;
-            color: black;
-            text-align: justify;
+            margin:auto;
+            color: #e60077;
             font-weight: bold;
-            font-size:15px;
+            font-size: 20px;
+            padding-top:0px;
+            padding-bottom:0px;
         }
 
         .intro {
-            width: 60%;
+            width: 50%;
             margin: auto;
+            color:black;
+            font-size:20px;
+            font-weight: bold;
+            
+
+        }
+
+        .button {
+            display: block;
+            background: #e60077;
+            color: white;
+            padding: 15px;
+            font-size: 24px;
+            width: 160px;
+            margin: auto;
+            text-decoration: none;
+            margin-top: 20px;
+            box-shadow: 2px 2px 2px #888888;
         }
 
         .box {
@@ -96,7 +117,7 @@
             margin-top: 40px;
             border-radius: 5px;
             background: #f0f5f5;
-            box-shadow: 5px 5px 5px ;
+            box-shadow: 5px 5px 5px pink;
         }
 
         .footer {
@@ -109,9 +130,9 @@
         a:hover {
             color: pink;
         }
-
-
-        @media only screen and (max-width: 600px) {
+            
+        
+       @media only screen and (max-width: 600px) {
             body {
                 background-color: pink;
             }
@@ -140,22 +161,25 @@
             flex-direction: column;
 
             }
-            .main-header-intro{  
-                display:flex;
-                padding:10px;
-              }
-
-            }
+           
+            
+        
         
 
         @media only screen and (min-width: 601px) {
             body {
                 background-color: pink;
             }
+
+            }
             .box {
                 display:flex;
                 flex-direction:row;
                 justify-content:center;
                  }
-            }
-      
+        
+        }   
+          
+
+       
+   
