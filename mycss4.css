@@ -1,15 +1,12 @@
-    
-        * {
+    * {
             box-sizing: border-box;
         }
+
         body {
-            color:#DA1F90;
-            margin: auto;
+            color:pink;
+            margin: 0;
             font-family: serif;
             text-align: center;
-            background: url("imgs/pinkbox.jpg") no-repeat center;
-            background-size: cover;
-
         }
 
         img {
@@ -20,59 +17,38 @@
             text-decoration: none;
         }
 
-        h2{
-            color:black;
+        .nav-header {
+            height: 100px;
+            background: lightpink;
+            display: flex;
         }
 
-        ol {
-            padding:10px;
-        }
-
-
-        header {
-                display: inline-block;
-                width:100%;
-                padding:25px 80px;
-                background-color:lightpink;
-                position:relative;
-            }
-
-        nav {
-            margin:auto;
-            display:inline-block;
+        .nav-div {
+            margin: auto;
         }
 
         .nav-bar {
-            float: right;
-            display:flex;
-            flex-direction: row;
-            background-color: lightpink;
-            height:20px;
-            margin-top:0px;
-            margin-bottom:5px;            
-            padding-top:0px;
-            padding-bottom: 50px;
+            list-style-type: none;
         }
 
-
-        nav ul li {
-                display:inline-block;
-                padding:15px 25px;
-            }
-
-            
-        nav ul li a {  
-                text-decoration: none;
-                display: inline-block;
-                 color: #878787;
-                font-size: 24px;
-               
+        .nav-bar-list {
+            display: inline-block;
         }
 
-        
-           
+        .nav-bar-link {
+            color: #878787;
+            font-size: 24px;
+            padding: 20px;
+        }
+
+        .main-header {
+            height: 300px;
+            background: url("imgs/pinkbox.jpg") no-repeat center;
+            background-size: cover;
+        }
+
         .main-header-title {
-            margin-top: 20px;
+            margin-top: 0;
             padding-top: 30px;
             text-align: left;
             font-size: 2.5em;
@@ -84,38 +60,19 @@
         }
 
         .main-header-intro {
-            text-align: left;
             line-height: 1.5em;
             width: 50%;
             margin:auto;
-            color: #e60077;
+            padding: 100px;
+            color: black;
+            text-align: justify;
             font-weight: bold;
-            font-size: 20px;
-            padding-top:0px;
-            padding-bottom:0px;
+            font-size:15px;
         }
 
         .intro {
-            width: 50%;
+            width: 60%;
             margin: auto;
-            color:black;
-            font-size:20px;
-            font-weight: bold;
-            
-
-        }
-
-        .button {
-            display: block;
-            background: #e60077;
-            color: white;
-            padding: 15px;
-            font-size: 24px;
-            width: 160px;
-            margin: auto;
-            text-decoration: none;
-            margin-top: 20px;
-            box-shadow: 2px 2px 2px #888888;
         }
 
         .box {
@@ -133,8 +90,7 @@
             margin-top: 40px;
             border-radius: 5px;
             background: #f0f5f5;
-            box-shadow: 5px 5px 5px pink;
-            background-color:#ECE6E7;
+            box-shadow: 5px 5px 5px ;
         }
 
         .footer {
@@ -147,10 +103,9 @@
         a:hover {
             color: pink;
         }
-            
-        
-     
-       @media only screen and (max-width: 600px) {
+
+
+        @media only screen and (max-width: 600px) {
             body {
                 background-color: pink;
             }
@@ -160,7 +115,7 @@
                 flex-direction: column;
                 background: white;
                 align-items: center;
-                margin-bottom:160px;
+                margin-bottom:10px;
                 padding:0px;
             }
 
@@ -171,23 +126,26 @@
                 padding-left:20px;
                 margin-top:2px;
                 height:96%;
+                margin-bottom: 0px;
 
             }
 
             .box { 
             display:flex; 
-            flex-direction:column;
+            flex-direction: column;
 
             }
+            .main-header-intro{  
+                display:flex;
+                padding:10px;
+              }
+
+            }
+        
 
         @media only screen and (min-width: 601px) {
             body {
                 background-color: pink;
-            }
-
-            nav{
-                padding-bottom:0px;
-                margin-bottom:0px;
             }
             .box {
                 display:flex;
@@ -195,7 +153,5 @@
                 justify-content:center;
                  }
             }
-          
-
-       
-   
+      
+        
