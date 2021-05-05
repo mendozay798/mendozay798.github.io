@@ -3,7 +3,7 @@
         }
 
         body {
-            color:#F73FBC;
+            color:#F054AB;
             margin: 0;
             font-family: serif;
             text-align: center;
@@ -97,6 +97,7 @@
             height: 40px;
             background: #f0f5f5;
             padding: 5px;
+            color:#F73FBC;
         }
 
 
