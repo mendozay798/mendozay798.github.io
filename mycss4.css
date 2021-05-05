@@ -24,6 +24,10 @@
             color:black;
         }
 
+        ol {
+            padding:10px;
+        }
+
         .nav-header {
             height: 100px;
             background: lightpink;
