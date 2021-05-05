@@ -17,8 +17,7 @@
         a {
             text-decoration: none;
         }
-
-        .nav-header {
+         .nav-header {
             height: 100px;
             background: lightpink;
             display: flex;
@@ -28,13 +27,9 @@
             margin: auto;
         }
 
-        .search-icon {
-            margin: 30px;
-            color:grey;
-        }
-
         .nav-bar {
             list-style-type: none;
+            flex-direction: row;
         }
 
         .nav-bar-list {
@@ -45,6 +40,62 @@
             color: #878787;
             font-size: 24px;
             padding: 20px;
+        }
+
+       
+
+        .main-header-title {
+            margin-top: 0;
+            padding-top: 30px;
+            text-align: left;
+            font-size: 2.5em;
+            color:#DA1F90;
+            text-transform: uppercase;
+            font-weight: bold;
+            padding-left: 75px;
+            text-shadow: 3px 2px grey;
+        }
+
+        .main-header-intro {
+            line-height: 1.5em;
+            width: 50%;
+            margin:auto;
+            padding: 100px;
+            color: black;
+            text-align: justify;
+            font-weight: bold;
+            font-size:15px;
+        }
+
+
+        header {
+                display: inline-block;
+                width:100%;
+                padding:25px 80px;
+                background-color:lightpink;
+                position:relative;
+            }
+
+        nav {
+            margin:auto;
+            display:inline-block;
+        }
+
+       
+
+
+        nav ul li {
+                display:inline-block;
+                padding:15px 25px;
+            }
+
+            
+        nav ul li a {  
+                text-decoration: none;
+                display: inline-block;
+                 color: #878787;
+                font-size: 24px;
+               
         }
 
         .main-header {
@@ -121,7 +172,7 @@
                 flex-direction: column;
                 background: white;
                 align-items: center;
-                margin-bottom:160px;
+                margin-bottom:10px;
                 padding:0px;
             }
 
@@ -132,6 +183,7 @@
                 padding-left:20px;
                 margin-top:2px;
                 height:96%;
+                margin-bottom: 0px;
 
             }
 
@@ -143,10 +195,9 @@
             .main-header-intro{  
                 display:flex;
                 padding:10px;
-                
+              }
+
             }
-            
-        
         
 
         @media only screen and (min-width: 601px) {
@@ -158,7 +209,7 @@
                 flex-direction:row;
                 justify-content:center;
                  }
+            }
         
-        }   
-          }
-      
+       
+       

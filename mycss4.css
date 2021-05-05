@@ -28,33 +28,45 @@
             padding:10px;
         }
 
-        .nav-header {
-            height: 100px;
-            background: lightpink;
-            display: flex;
-        }
 
-        .nav-div {
-            margin: auto;
-        }
+        header {
+                display: inline-block;
+                width:100%;
+                padding:25px 80px;
+                background-color:lightpink;
+                position:relative;
+            }
 
-        .search-icon {
-            margin: 30px;
-            color:grey;
+        nav {
+            margin:auto;
+            display:inline-block;
         }
 
         .nav-bar {
-            list-style-type: none;
+            float: right;
+            display:flex;
+            flex-direction: row;
+            background-color: lightpink;
+            height:20px;
+            margin-top:0px;
+            margin-bottom:5px;            
+            padding-top:0px;
+            padding-bottom: 50px;
         }
 
-        .nav-bar-list {
-            display: inline-block;
-        }
 
-        .nav-bar-link {
-            color: #878787;
-            font-size: 24px;
-            padding: 20px;
+        nav ul li {
+                display:inline-block;
+                padding:15px 25px;
+            }
+
+            
+        nav ul li a {  
+                text-decoration: none;
+                display: inline-block;
+                 color: #878787;
+                font-size: 24px;
+               
         }
 
         
@@ -137,6 +149,7 @@
         }
             
         
+     
        @media only screen and (max-width: 600px) {
             body {
                 background-color: pink;
@@ -144,47 +157,44 @@
             
             .nav-header {
                 display:flex;
-                flex-direction: row;
+                flex-direction: column;
                 background: white;
                 align-items: center;
                 margin-bottom:160px;
                 padding:0px;
-
             }
 
             .nav-bar {
                 display: flex;
-                flex-direction: row;
+                flex-direction: column;
                 background-color: lightpink;
                 padding-left:20px;
                 margin-top:2px;
-                height:98%;
+                height:96%;
 
             }
 
             .box { 
             display:flex; 
-            flex-direction: column;
+            flex-direction:column;
 
             }
-           
-            
-        
-        
 
         @media only screen and (min-width: 601px) {
             body {
                 background-color: pink;
             }
 
+            nav{
+                padding-bottom:0px;
+                margin-bottom:0px;
             }
             .box {
                 display:flex;
                 flex-direction:row;
                 justify-content:center;
                  }
-        
-        }   
+            }
           
 
        
